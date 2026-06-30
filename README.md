@@ -45,8 +45,7 @@ We call upon researchers to create **Pull Requests** to build the "Mapping Bridg
 To inherit the `TruongCore` framework into your Lean 4 project for building mapping functions, add the following line to your project's `lakefile.lean`:
 
 ```lean
-require TruongCore from git "[https://github.com/nqtruong5794-tech/TruongCore.git](https://github.com/nqtruong5794-tech/TruongCore.git)" @ "main"
-```
+require TruongCore from git "https://github.com/nqtruong5794-tech/TruongCore.git" @ "main"
 
 Update packages and build:
 ```bash
